@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 14 (0xe)
+        Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=CN, ST=Heilongjiang, L=Harbin, O=Test, OU=Test, CN=Test/emailAddress=2106934880@qq.com
+        Validity
+            Not Before: Dec 18 07:15:16 2021 GMT
+            Not After : Dec 18 07:15:16 2022 GMT
+        Subject: C=CN, ST=Heilongjiang, O=HIT_Exp, OU=Exp_test, CN=cdx1190201308/emailAddress=2106934880@qq.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c8:aa:aa:42:fb:fd:eb:f2:aa:80:6d:e1:67:e9:
+                    92:fa:f8:1c:21:6a:07:62:cc:45:18:b5:e6:63:0d:
+                    88:0e:11:44:bb:d9:15:97:0d:9c:97:e7:46:2e:e6:
+                    b3:90:eb:8b:68:c8:8a:e9:6e:6c:d5:ab:93:fd:49:
+                    28:b7:e8:ba:49:52:80:73:dc:1c:b0:41:35:57:69:
+                    6e:b5:d0:ff:96:d1:5f:7d:38:36:14:cd:7d:a5:fb:
+                    31:7f:0b:ab:13:5e:ce:50:1f:ba:6f:bd:05:dd:f9:
+                    6b:c9:e5:0d:d7:c4:43:ea:fc:15:56:9e:3b:e8:bc:
+                    15:91:ae:93:88:6c:c2:d8:74:73:5d:c0:cc:62:bc:
+                    cd:fc:d8:dd:7a:bd:f4:0b:f1:5b:6e:f8:a9:fc:8b:
+                    ca:ba:05:68:8a:be:04:20:98:50:6c:83:29:e6:0e:
+                    ab:7f:e9:f7:21:93:c7:e8:e3:fe:30:df:d0:02:71:
+                    1a:ee:08:32:1d:2b:1e:e6:75:73:fb:c9:75:38:98:
+                    0a:d9:c5:ec:fa:f1:d0:64:25:6e:bc:59:53:eb:c8:
+                    17:f0:1d:35:3e:c0:ba:85:49:ca:b9:b4:93:53:76:
+                    59:74:71:f9:4d:65:a4:20:61:c3:c6:fb:5c:65:56:
+                    ff:80:e3:59:b3:8d:18:b7:e6:0d:cc:bb:8d:3a:9f:
+                    86:61
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: md5WithRSAEncryption
+    Signature Value:
+        00:d2:3a:03:d6:93:64:7e:8a:2e:7e:97:1c:cc:b2:10:02:c6:
+        74:c4:01:06:ed:ee:be:a9:f6:6f:75:a9:fc:73:3b:53:77:0a:
+        17:8b:66:93:20:a3:de:f7:5a:fa:29:b0:c7:02:b1:57:23:bb:
+        28:fe:dc:2a:16:ef:c2:5d:b0:82:b6:d3:20:4d:0b:ff:f0:56:
+        fb:36:82:7e:2b:c1:89:7a:7a:c4:63:84:f6:88:52:00:af:ef:
+        99:6b:4b:d2:57:74:60:74:96:1f:3e:23:56:52:18:bf:ee:3f:
+        76:01:39:9b:07:84:91:19:07:50:30:e1:39:8d:f1:17:da:92:
+        94:96
+-----BEGIN CERTIFICATE-----
+MIIC/DCCAmUCAQ4wDQYJKoZIhvcNAQEEBQAwgYQxCzAJBgNVBAYTAkNOMRUwEwYD
+VQQIDAxIZWlsb25namlhbmcxDzANBgNVBAcMBkhhcmJpbjENMAsGA1UECgwEVGVz
+dDENMAsGA1UECwwEVGVzdDENMAsGA1UEAwwEVGVzdDEgMB4GCSqGSIb3DQEJARYR
+MjEwNjkzNDg4MEBxcS5jb20wHhcNMjExMjE4MDcxNTE2WhcNMjIxMjE4MDcxNTE2
+WjCBgzELMAkGA1UEBhMCQ04xFTATBgNVBAgMDEhlaWxvbmdqaWFuZzEQMA4GA1UE
+CgwHSElUX0V4cDERMA8GA1UECwwIRXhwX3Rlc3QxFjAUBgNVBAMMDWNkeDExOTAy
+MDEzMDgxIDAeBgkqhkiG9w0BCQEWETIxMDY5MzQ4ODBAcXEuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyKqqQvv96/KqgG3hZ+mS+vgcIWoHYsxF
+GLXmYw2IDhFEu9kVlw2cl+dGLuazkOuLaMiK6W5s1auT/Ukot+i6SVKAc9wcsEE1
+V2lutdD/ltFffTg2FM19pfsxfwurE17OUB+6b70F3flryeUN18RD6vwVVp476LwV
+ka6TiGzC2HRzXcDMYrzN/Njder30C/Fbbvip/IvKugVoir4EIJhQbIMp5g6rf+n3
+IZPH6OP+MN/QAnEa7ggyHSse5nVz+8l1OJgK2cXs+vHQZCVuvFlT68gX8B01PsC6
+hUnKubSTU3ZZdHH5TWWkIGHDxvtcZVb/gONZs40Yt+YNzLuNOp+GYQIDAQABMA0G
+CSqGSIb3DQEBBAUAA4GBAADSOgPWk2R+ii5+lxzMshACxnTEAQbt7r6p9m91qfxz
+O1N3CheLZpMgo973WvopsMcCsVcjuyj+3CoW78JdsIK20yBNC//wVvs2gn4rwYl6
+esRjhPaIUgCv75lrS9JXdGB0lh8+I1ZSGL/uP3YBOZsHhJEZB1Aw4TmN8RfakpSW
+-----END CERTIFICATE-----
