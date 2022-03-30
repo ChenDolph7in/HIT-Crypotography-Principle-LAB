@@ -1,0 +1,25 @@
+查看crl
+openssl crl -in crl.crl -text -issuer -hash -lastupdate -nextupdate
+
+查询有效性
+openssl verify -extended_crl -crl_check_all -crl_download -CAfile ca.pem D:\java\sourse\CA\src\main\webapp\ca\verify\test_client.pem
+openssl verify -crl_check -CAfile ca.pem D:\java\sourse\CA\src\main\webapp\ca\verify\test_client.pem
+
+openssl ca -in \csrs\rsaCerReq.csr -out \certs\rsaCerReq.pem -cert ca.pem -keyfile ..\key\rsa_private_key.pem -config openssl.cnf
+
+openssl ca -gencrl -out "D:\\java\\sourse\\CA\\src\\main\\webapp\\ca\\crl.crl" -config "D:\\java\\sourse\\CA\\src\\main\\webapp\\ca\\openssl.cnf"
+
+openssl ca -cert D:\java\sourse\CA\src\main\webapp\ca\ca.crt -keyfile D:\java\sourse\CA\src\main\webapp\key\rsa_private_key.pem -revoke D:\java\sourse\CA\src\main\webapp\ca\certs\1639141690320test5.crt
+Using configuration from D:\java\sourse\CA\src\main\webapp\ca\openssl.cnf
+Revoking Certificate 08.
+Data Base Updated
+
+openssl ca -cert D:\java\sourse\CA\src\main\webapp\ca\ca.crt -keyfile D:\java\sourse\CA\src\main\webapp\key\rsa_private_key.pem -revoke D:\java\sourseCA\src\main\webapp\ca\certs\1639144418029test6.crt
+
+D:\java\sourse\CA\src\main\webapp\ca\csrs>openssl ca -cert D:\java\sourse\CA\src\main\webapp\ca\ca.crt -keyfile D:\java\sourse\CA\src\main\webapp\key\rsa_private_key.pem -revoke D:\java\sourse\CA\src\main\webapp\ca\certs\1639141690320test5.crt
+Using configuration from D:\java\sourse\CA\src\main\webapp\ca\openssl.cnf
+Revoking Certificate 08.
+Data Base Updated
+
+openssl ca -cert D:\java\sourse\CA\src\main\webapp\ca\ca.crt -keyfile D:\java\sourse\CA\src\main\webapp\key\rsa_private_key.pem -revoke D:\java\sourse\CA\src\main\webapp\ca\certs\1639144418029test6.crt
+Using configuration from D:\java\sourse\CA\src\main\webapp\ca\openssl.cnf
